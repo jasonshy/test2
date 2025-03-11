@@ -1,0 +1,287 @@
+.ecommerce {
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 480px;
+  width: 100%;
+  padding-top: 12px;
+  overflow: hidden;
+  font-family:
+    Inter,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+}
+
+.top-nav {
+  display: flex;
+  width: 100%;
+  padding-left: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  white-space: nowrap;
+}
+
+.logo {
+  aspect-ratio: 2.57;
+  object-fit: contain;
+  width: 54px;
+  border-radius: 32px;
+}
+
+.search-bar {
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  display: flex;
+  margin-top: 19px;
+  min-height: 40px;
+  padding: 8px 16px 8px 12px;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  color: #828282;
+  font-weight: 400;
+}
+
+.search-icon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  width: 24px;
+  margin: auto 0;
+  flex-shrink: 0;
+}
+
+.search-text {
+  flex: 1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.navigation-pills {
+  align-self: stretch;
+  display: flex;
+  margin-top: 8px;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #1a1a1a;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.nav-pill {
+  border-radius: 6px;
+  border: 1px solid #e6e6e6;
+  display: flex;
+  padding: 5px 10px;
+  align-items: center;
+  gap: 4px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.pill-icon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  width: 18px;
+  flex-shrink: 0;
+}
+
+.banner-section {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  position: relative;
+  aspect-ratio: 2.522;
+  margin-top: 16px;
+  width: 100%;
+  padding: 54px 69px 8px 20px;
+  overflow: hidden;
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  line-height: 1.4;
+}
+
+.banner-image {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner-title {
+  position: relative;
+  align-self: flex-start;
+  font-size: inherit;
+  margin: 0;
+}
+
+.banner-pagination {
+  position: relative;
+  align-self: center;
+  display: flex;
+  min-height: 5px;
+  margin-top: 41px;
+  gap: 5px;
+}
+
+.section-header {
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+  white-space: nowrap;
+  letter-spacing: -0.32px;
+  line-height: 1.4;
+}
+
+.section-title {
+  margin: auto 0;
+  font-size: inherit;
+}
+
+.section-arrow {
+  aspect-ratio: 1;
+  object-fit: contain;
+  width: 20px;
+  margin: auto 0;
+  flex-shrink: 0;
+}
+
+.category-carousel {
+  display: flex;
+  width: 100%;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 24px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #161823;
+  font-weight: 500;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 0.14px;
+  line-height: 1.4;
+}
+
+.category-item {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 76px;
+}
+
+.category-image {
+  aspect-ratio: 1;
+  object-fit: contain;
+  width: 76px;
+  border-radius: 38px;
+}
+
+.category-title {
+  margin-top: 8px;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.product-carousel {
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 12px;
+  color: #000;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 148px;
+}
+
+.product-image {
+  aspect-ratio: 1;
+  object-fit: contain;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-info {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.product-brand {
+  display: block;
+  font-size: 12px;
+}
+
+.product-name {
+  font-size: 14px;
+  font-weight: inherit;
+  margin: 0;
+}
+
+.product-price {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.bottom-nav {
+  background-color: #fff;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.tab-buttons {
+  z-index: 10;
+  display: flex;
+  width: 100%;
+}
+
+.tab-button {
+  display: flex;
+  padding: 12px 26px 8px;
+  align-items: flex-start;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  flex: 1;
+}
+
+.tab-icon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  width: 24px;
+}
+
+.home-indicator {
+  border-radius: 100px;
+  background-color: #000;
+  align-self: center;
+  z-index: 10;
+  margin-top: -6px;
+  width: 134px;
+  height: 5px;
+}
+
+.bottom-carousel {
+  display: flex;
+  min-height: 7px;
+  padding: 8px;
+  gap: 12px;
+}
