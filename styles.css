@@ -285,3 +285,257 @@
   padding: 8px;
   gap: 12px;
 }
+
+.checkout {
+  background-color: #fff;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 480px;
+  width: 100%;
+  padding-top: 12px;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: stretch;
+  font-family:
+    Inter,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+}
+
+.back-button {
+  aspect-ratio: 2.57;
+  object-fit: contain;
+  object-position: center;
+  width: 54px;
+  border-radius: 32px;
+  margin-left: 21px;
+}
+
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  margin-top: 11px;
+  width: 100%;
+  padding: 9px 16px;
+  align-items: stretch;
+  gap: 20px;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.menu-icon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 24px;
+  flex-shrink: 0;
+}
+
+.header-title {
+  font-size: 17px;
+  color: #000;
+  font-weight: 600;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: -0.34px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.section-label {
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 2;
+  margin: 0;
+}
+
+.shipping,
+.delivery,
+.payment,
+.promos {
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  align-items: start;
+  gap: 12px;
+  overflow: hidden;
+}
+
+.info,
+.info-2,
+.info-3,
+.info-4 {
+  display: flex;
+  align-items: stretch;
+  gap: 40px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+  line-height: 1.4;
+  flex: 1;
+}
+
+.action-icon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 20px;
+  flex-shrink: 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.delivery-type,
+.delivery-details {
+  margin: 0;
+}
+
+.items {
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  align-items: stretch;
+  gap: 20px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+  justify-content: space-between;
+}
+
+.items-images {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.product-image {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 84px;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.items-details {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.product-info {
+  margin-top: 16px;
+}
+
+.brand {
+  font-size: 12px;
+  margin: 0;
+}
+
+.product-name,
+.product-description,
+.quantity {
+  line-height: 1.4;
+  margin: 0;
+}
+
+.items-prices {
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  white-space: nowrap;
+  text-align: right;
+}
+
+.price {
+  margin: 16px 0 0;
+  line-height: 1.4;
+}
+
+.summary {
+  align-self: center;
+  margin-top: 16px;
+  width: 100%;
+  max-width: 343px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.summary-row {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.summary-row:first-child {
+  margin-top: 0;
+}
+
+.summary-label,
+.summary-value {
+  margin: 0;
+}
+
+.summary-value {
+  text-align: right;
+}
+
+.total {
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.bottom-button {
+  background-color: #fff;
+  border-top: 1px solid #e6e6e6;
+  display: flex;
+  margin-top: 28px;
+  width: 100%;
+  padding: 10px 16px;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: stretch;
+}
+
+.place-order-button {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  background-color: #000;
+  padding: 14px 24px;
+  gap: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.home-indicator {
+  border-radius: 100px;
+  background-color: #000;
+  align-self: center;
+  margin-top: 21px;
+  width: 134px;
+  height: 5px;
+}
+
